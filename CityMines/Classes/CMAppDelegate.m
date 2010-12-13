@@ -6,10 +6,10 @@
 //  Copyright 2010 Neue Digitale / Razorfish. All rights reserved.
 //
 
-#import "CityMinesAppDelegate.h"
-#import "CityMinesViewController.h"
+#import "CMAppDelegate.h"
+#import "CMViewController.h"
 
-@implementation CityMinesAppDelegate
+@implementation CMAppDelegate
 
 @synthesize window;
 @synthesize viewController;

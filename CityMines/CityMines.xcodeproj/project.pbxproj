@@ -204,7 +204,7 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = CityMines_Prefix.pch;
-				INFOPLIST_FILE = "CityMines-Info.plist";
+				INFOPLIST_FILE = "Resources/CityMines-Info.plist";
 				PRODUCT_NAME = CityMines;
 			};
 			name = Debug;
@@ -216,7 +216,7 @@
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = CityMines_Prefix.pch;
-				INFOPLIST_FILE = "CityMines-Info.plist";
+				INFOPLIST_FILE = "Resources/CityMines-Info.plist";
 				PRODUCT_NAME = CityMines;
 				VALIDATE_PRODUCT = YES;
 			};

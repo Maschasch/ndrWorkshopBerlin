@@ -8,15 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@class CityMinesViewController;
+@class CMViewController;
 
-@interface CityMinesAppDelegate : NSObject <UIApplicationDelegate> {
+@interface CMAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-    CityMinesViewController *viewController;
+    CMViewController *viewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet CityMinesViewController *viewController;
+@property (nonatomic, retain) IBOutlet CMViewController *viewController;
 
 @end
 
