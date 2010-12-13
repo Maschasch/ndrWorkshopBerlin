@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CityMinesViewController : UIViewController {
+@interface CMViewController : UIViewController {
 
 }
 

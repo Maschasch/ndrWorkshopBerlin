@@ -6,9 +6,9 @@
 //  Copyright 2010 Neue Digitale / Razorfish. All rights reserved.
 //
 
-#import "CityMinesViewController.h"
+#import "CMViewController.h"
 
-@implementation CityMinesViewController
+@implementation CMViewController
 
 
 
