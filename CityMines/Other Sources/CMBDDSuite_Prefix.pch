@@ -4,6 +4,11 @@
 	#import <Foundation/Foundation.h>
 	#import <UIKit/UIKit.h>
 
+	#import <Cedar-iPhone/SpecHelper.h>
+	#define HC_SHORTHAND
+	#import <OCHamcrest-iPhone/OCHamcrest.h>
+	#import <OCMock-iPhone/OCMock.h>
+
 	#ifdef DEBUG
 		#define CMLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
 	#else

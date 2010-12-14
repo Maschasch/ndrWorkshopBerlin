@@ -7,7 +7,7 @@
 //
 
 #import "CMAppDelegate.h"
-#import "CMViewController.h"
+#import "CMRootViewController.h"
 
 @implementation CMAppDelegate
 
@@ -21,7 +21,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
     // Override point for customization after application launch.
-	self.viewController = [CMViewController viewController];
+	self.viewController = [CMRootViewController viewController];
+	self.viewController.view.center = CGPointMake(self.viewController.view.center.x, self.viewController.view.center.y+20);
     // Add the view controller's view to the window and display.
     [self.window addSubview:viewController.view];
     [self.window makeKeyAndVisible];

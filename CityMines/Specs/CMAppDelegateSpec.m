@@ -4,11 +4,6 @@
 //  Copyright 2010 Neue Digitale. All rights reserved.
 //
 
-#import <Cedar-iPhone/SpecHelper.h>
-#define HC_SHORTHAND
-#import <OCHamcrest-iPhone/OCHamcrest.h>
-#import <OCMock-iPhone/OCMock.h>
-
 #import "CMAppDelegate.h"
 
 SPEC_BEGIN(CMAppDelegateSpec)

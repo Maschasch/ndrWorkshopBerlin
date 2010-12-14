@@ -8,15 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@class CMViewController;
+@class CMRootViewController;
 
 @interface CMAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
-    CMViewController *viewController;
+    CMRootViewController *viewController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-@property (nonatomic, retain) IBOutlet CMViewController *viewController;
+@property (nonatomic, retain) IBOutlet CMRootViewController *viewController;
 
 @end
 

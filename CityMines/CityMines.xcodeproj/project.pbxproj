@@ -14,7 +14,7 @@
 		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		2899E5220DE3E06400AC0155 /* CityMinesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* CityMinesViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
-		28D7ACF80DDB3853001CB0EB /* CMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* CMViewController.m */; };
+		28D7ACF80DDB3853001CB0EB /* CMRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* CMRootViewController.m */; };
 		69E01C3A12B70392000A843E /* Cedar-iPhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E01C3912B70392000A843E /* Cedar-iPhone.framework */; };
 		69E01C3E12B70392000A843E /* OCHamcrest-iPhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E01C3D12B70392000A843E /* OCHamcrest-iPhone.framework */; };
 		69E01C4012B70392000A843E /* OCMock-iPhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E01C3F12B70392000A843E /* OCMock-iPhone.framework */; };
@@ -35,13 +35,37 @@
 		69E01E0A12B71501000A843E /* CMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* CMAppDelegate.m */; };
 		69E01E5612B71761000A843E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		69E01E5712B7176A000A843E /* CityMinesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* CityMinesViewController.xib */; };
-		69F0D01C12B790040061C606 /* CMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* CMViewController.m */; };
-		69F0D02D12B7906B0061C606 /* CMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* CMViewController.m */; };
+		69F0D01C12B790040061C606 /* CMRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* CMRootViewController.m */; };
+		69F0D02D12B7906B0061C606 /* CMRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* CMRootViewController.m */; };
 		69F0D08E12B799D00061C606 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F0D08D12B799D00061C606 /* icon.png */; };
 		69F0D08F12B799D00061C606 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F0D08D12B799D00061C606 /* icon.png */; };
 		69F0D09012B799D00061C606 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F0D08D12B799D00061C606 /* icon.png */; };
 		69F0D0CC12B7A2990061C606 /* CMAppDelegateTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E01E0412B713A8000A843E /* CMAppDelegateTest.m */; };
-		69F0D0EE12B7A3C90061C606 /* CMBDDSuite-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 69E01C0112B6FFC2000A843E /* CMBDDSuite-Info.plist */; };
+		BD93206D12B81091001F5306 /* CMBombAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD93206C12B81091001F5306 /* CMBombAnnotationView.m */; };
+		BD93206E12B81091001F5306 /* CMBombAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD93206C12B81091001F5306 /* CMBombAnnotationView.m */; };
+		BD93206F12B81091001F5306 /* CMBombAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD93206C12B81091001F5306 /* CMBombAnnotationView.m */; };
+		BDCDD87D12B7D05A00520956 /* CMModelSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCDD87C12B7D05A00520956 /* CMModelSpec.m */; };
+		BDCDD87E12B7D05A00520956 /* CMModelSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCDD87C12B7D05A00520956 /* CMModelSpec.m */; };
+		BDCFB1CD12B80C60008EED2E /* bomb.png in Resources */ = {isa = PBXBuildFile; fileRef = BDCFB1CC12B80C60008EED2E /* bomb.png */; };
+		BDCFB1CE12B80C60008EED2E /* bomb.png in Resources */ = {isa = PBXBuildFile; fileRef = BDCFB1CC12B80C60008EED2E /* bomb.png */; };
+		BDCFB1CF12B80C60008EED2E /* bomb.png in Resources */ = {isa = PBXBuildFile; fileRef = BDCFB1CC12B80C60008EED2E /* bomb.png */; };
+		BDCFB1D512B80CD4008EED2E /* CMBombAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCFB1D412B80CD4008EED2E /* CMBombAnnotation.m */; };
+		BDCFB1D612B80CD4008EED2E /* CMBombAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCFB1D412B80CD4008EED2E /* CMBombAnnotation.m */; };
+		BDCFB1D712B80CD4008EED2E /* CMBombAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCFB1D412B80CD4008EED2E /* CMBombAnnotation.m */; };
+		BDFEC90F12B7A74D008F8DF8 /* CMViewControllerSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFEC90E12B7A74D008F8DF8 /* CMViewControllerSpec.m */; };
+		BDFEC91A12B7A9AE008F8DF8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDFEC91912B7A9AE008F8DF8 /* CoreLocation.framework */; };
+		BDFEC92212B7AABB008F8DF8 /* CMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFEC92112B7AABB008F8DF8 /* CMModel.m */; };
+		BDFEC92312B7AAD7008F8DF8 /* CMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFEC92112B7AABB008F8DF8 /* CMModel.m */; };
+		BDFEC92412B7AAF5008F8DF8 /* CMModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFEC92112B7AABB008F8DF8 /* CMModel.m */; };
+		BDFEC96E12B7B4D6008F8DF8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDFEC96D12B7B4D6008F8DF8 /* MapKit.framework */; };
+		BDFEC98C12B7B51E008F8DF8 /* CMMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFEC98A12B7B51E008F8DF8 /* CMMapViewController.m */; };
+		BDFEC98D12B7B51E008F8DF8 /* CMMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDFEC98B12B7B51E008F8DF8 /* CMMapViewController.xib */; };
+		BDFEC98E12B7B51E008F8DF8 /* CMMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFEC98A12B7B51E008F8DF8 /* CMMapViewController.m */; };
+		BDFEC98F12B7B51E008F8DF8 /* CMMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDFEC98B12B7B51E008F8DF8 /* CMMapViewController.xib */; };
+		BDFEC99012B7B51E008F8DF8 /* CMMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFEC98A12B7B51E008F8DF8 /* CMMapViewController.m */; };
+		BDFEC99112B7B51E008F8DF8 /* CMMapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDFEC98B12B7B51E008F8DF8 /* CMMapViewController.xib */; };
+		BDFEC9DE12B7BA31008F8DF8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDFEC91912B7A9AE008F8DF8 /* CoreLocation.framework */; };
+		BDFEC9DF12B7BA34008F8DF8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDFEC96D12B7B4D6008F8DF8 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,8 +77,8 @@
 		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		2899E5210DE3E06400AC0155 /* CityMinesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CityMinesViewController.xib; sourceTree = "<group>"; };
 		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
-		28D7ACF60DDB3853001CB0EB /* CMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMViewController.h; sourceTree = "<group>"; };
-		28D7ACF70DDB3853001CB0EB /* CMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMViewController.m; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* CMRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMRootViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* CMRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMRootViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* CityMines_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityMines_Prefix.pch; sourceTree = "<group>"; };
 		69E01BFF12B6FFC2000A843E /* CMBDDSuite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMBDDSuite.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +97,20 @@
 		69E01E0412B713A8000A843E /* CMAppDelegateTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAppDelegateTest.m; sourceTree = "<group>"; };
 		69F0D08D12B799D00061C606 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CityMines-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "CityMines-Info.plist"; path = "Resources/CityMines-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		BD93206B12B81091001F5306 /* CMBombAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBombAnnotationView.h; sourceTree = "<group>"; };
+		BD93206C12B81091001F5306 /* CMBombAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBombAnnotationView.m; sourceTree = "<group>"; };
+		BDCDD87C12B7D05A00520956 /* CMModelSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMModelSpec.m; sourceTree = "<group>"; };
+		BDCFB1CC12B80C60008EED2E /* bomb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bomb.png; sourceTree = "<group>"; };
+		BDCFB1D312B80CD4008EED2E /* CMBombAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBombAnnotation.h; sourceTree = "<group>"; };
+		BDCFB1D412B80CD4008EED2E /* CMBombAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBombAnnotation.m; sourceTree = "<group>"; };
+		BDFEC90E12B7A74D008F8DF8 /* CMViewControllerSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMViewControllerSpec.m; sourceTree = "<group>"; };
+		BDFEC91912B7A9AE008F8DF8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BDFEC92012B7AABB008F8DF8 /* CMModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMModel.h; sourceTree = "<group>"; };
+		BDFEC92112B7AABB008F8DF8 /* CMModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMModel.m; sourceTree = "<group>"; };
+		BDFEC96D12B7B4D6008F8DF8 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BDFEC98912B7B51E008F8DF8 /* CMMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMMapViewController.h; sourceTree = "<group>"; };
+		BDFEC98A12B7B51E008F8DF8 /* CMMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMMapViewController.m; sourceTree = "<group>"; };
+		BDFEC98B12B7B51E008F8DF8 /* CMMapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CMMapViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +121,8 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				BDFEC9DE12B7BA31008F8DF8 /* CoreLocation.framework in Frameworks */,
+				BDFEC9DF12B7BA34008F8DF8 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +136,8 @@
 				69E01C3A12B70392000A843E /* Cedar-iPhone.framework in Frameworks */,
 				69E01C3E12B70392000A843E /* OCHamcrest-iPhone.framework in Frameworks */,
 				69E01C4012B70392000A843E /* OCMock-iPhone.framework in Frameworks */,
+				BDFEC91A12B7A9AE008F8DF8 /* CoreLocation.framework in Frameworks */,
+				BDFEC96E12B7B4D6008F8DF8 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,10 +159,13 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				BD93205912B81012001F5306 /* View */,
+				BDFEC98812B7B4EE008F8DF8 /* ViewController */,
+				BDFEC91F12B7A9FF008F8DF8 /* Model */,
 				1D3623240D0F684500981E51 /* CMAppDelegate.h */,
 				1D3623250D0F684500981E51 /* CMAppDelegate.m */,
-				28D7ACF60DDB3853001CB0EB /* CMViewController.h */,
-				28D7ACF70DDB3853001CB0EB /* CMViewController.m */,
+				28D7ACF60DDB3853001CB0EB /* CMRootViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* CMRootViewController.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -178,6 +223,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BDFEC96D12B7B4D6008F8DF8 /* MapKit.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
@@ -185,6 +231,7 @@
 				69E01C3B12B70392000A843E /* GHUnitIOS.framework */,
 				69E01C3D12B70392000A843E /* OCHamcrest-iPhone.framework */,
 				69E01C3F12B70392000A843E /* OCMock-iPhone.framework */,
+				BDFEC91912B7A9AE008F8DF8 /* CoreLocation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -211,6 +258,8 @@
 			isa = PBXGroup;
 			children = (
 				69E01C5E12B70593000A843E /* CMAppDelegateSpec.m */,
+				BDFEC90E12B7A74D008F8DF8 /* CMViewControllerSpec.m */,
+				BDCDD87C12B7D05A00520956 /* CMModelSpec.m */,
 			);
 			path = Specs;
 			sourceTree = "<group>";
@@ -226,6 +275,7 @@
 		69F0D08B12B799D00061C606 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				BDCFB1CC12B80C60008EED2E /* bomb.png */,
 				69F0D08C12B799D00061C606 /* Icons */,
 			);
 			name = Images;
@@ -238,6 +288,36 @@
 				69F0D08D12B799D00061C606 /* icon.png */,
 			);
 			path = Icons;
+			sourceTree = "<group>";
+		};
+		BD93205912B81012001F5306 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BD93206B12B81091001F5306 /* CMBombAnnotationView.h */,
+				BD93206C12B81091001F5306 /* CMBombAnnotationView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BDFEC91F12B7A9FF008F8DF8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BDFEC92012B7AABB008F8DF8 /* CMModel.h */,
+				BDFEC92112B7AABB008F8DF8 /* CMModel.m */,
+				BDCFB1D312B80CD4008EED2E /* CMBombAnnotation.h */,
+				BDCFB1D412B80CD4008EED2E /* CMBombAnnotation.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BDFEC98812B7B4EE008F8DF8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BDFEC98912B7B51E008F8DF8 /* CMMapViewController.h */,
+				BDFEC98A12B7B51E008F8DF8 /* CMMapViewController.m */,
+				BDFEC98B12B7B51E008F8DF8 /* CMMapViewController.xib */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,6 +379,9 @@
 /* Begin PBXProject section */
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Neue Digitale / Razorfish GmbH";
+			};
 			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "CityMines" */;
 			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
@@ -328,6 +411,8 @@
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* CityMinesViewController.xib in Resources */,
 				69F0D08E12B799D00061C606 /* icon.png in Resources */,
+				BDFEC98D12B7B51E008F8DF8 /* CMMapViewController.xib in Resources */,
+				BDCFB1CF12B80C60008EED2E /* bomb.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +423,8 @@
 				69E01DDD12B70DAC000A843E /* MainWindow.xib in Resources */,
 				69E01DE412B70DD7000A843E /* CityMinesViewController.xib in Resources */,
 				69F0D08F12B799D00061C606 /* icon.png in Resources */,
-				69F0D0EE12B7A3C90061C606 /* CMBDDSuite-Info.plist in Resources */,
+				BDFEC98F12B7B51E008F8DF8 /* CMMapViewController.xib in Resources */,
+				BDCFB1CE12B80C60008EED2E /* bomb.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +435,8 @@
 				69E01E5612B71761000A843E /* MainWindow.xib in Resources */,
 				69E01E5712B7176A000A843E /* CityMinesViewController.xib in Resources */,
 				69F0D09012B799D00061C606 /* icon.png in Resources */,
+				BDFEC99112B7B51E008F8DF8 /* CMMapViewController.xib in Resources */,
+				BDCFB1CD12B80C60008EED2E /* bomb.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,7 +449,11 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* CMAppDelegate.m in Sources */,
-				28D7ACF80DDB3853001CB0EB /* CMViewController.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* CMRootViewController.m in Sources */,
+				BDFEC92212B7AABB008F8DF8 /* CMModel.m in Sources */,
+				BDFEC98C12B7B51E008F8DF8 /* CMMapViewController.m in Sources */,
+				BDCFB1D712B80CD4008EED2E /* CMBombAnnotation.m in Sources */,
+				BD93206D12B81091001F5306 /* CMBombAnnotationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,7 +464,13 @@
 				69E01C4E12B703F2000A843E /* main_bdd.m in Sources */,
 				69E01C5F12B70593000A843E /* CMAppDelegateSpec.m in Sources */,
 				69E01C7312B70689000A843E /* CMAppDelegate.m in Sources */,
-				69F0D02D12B7906B0061C606 /* CMViewController.m in Sources */,
+				69F0D02D12B7906B0061C606 /* CMRootViewController.m in Sources */,
+				BDFEC90F12B7A74D008F8DF8 /* CMViewControllerSpec.m in Sources */,
+				BDFEC92312B7AAD7008F8DF8 /* CMModel.m in Sources */,
+				BDFEC98E12B7B51E008F8DF8 /* CMMapViewController.m in Sources */,
+				BDCDD87E12B7D05A00520956 /* CMModelSpec.m in Sources */,
+				BDCFB1D512B80CD4008EED2E /* CMBombAnnotation.m in Sources */,
+				BD93206F12B81091001F5306 /* CMBombAnnotationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,8 +480,13 @@
 			files = (
 				69E01E0312B712C5000A843E /* main_tdd.m in Sources */,
 				69E01E0A12B71501000A843E /* CMAppDelegate.m in Sources */,
-				69F0D01C12B790040061C606 /* CMViewController.m in Sources */,
+				69F0D01C12B790040061C606 /* CMRootViewController.m in Sources */,
 				69F0D0CC12B7A2990061C606 /* CMAppDelegateTest.m in Sources */,
+				BDFEC92412B7AAF5008F8DF8 /* CMModel.m in Sources */,
+				BDFEC99012B7B51E008F8DF8 /* CMMapViewController.m in Sources */,
+				BDCDD87D12B7D05A00520956 /* CMModelSpec.m in Sources */,
+				BDCFB1D612B80CD4008EED2E /* CMBombAnnotation.m in Sources */,
+				BD93206E12B81091001F5306 /* CMBombAnnotationView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

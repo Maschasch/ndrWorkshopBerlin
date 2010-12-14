@@ -7,10 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CMMapViewController.h"
 
-@interface CMViewController : UIViewController {
+@interface CMRootViewController : UIViewController {
 
+	CMMapViewController *mapViewController;
 }
+
+@property (nonatomic, retain) CMMapViewController *mapViewController;
 
 + (id)viewController;
 
