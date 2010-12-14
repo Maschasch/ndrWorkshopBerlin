@@ -41,6 +41,7 @@
 		69F0D08F12B799D00061C606 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F0D08D12B799D00061C606 /* icon.png */; };
 		69F0D09012B799D00061C606 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F0D08D12B799D00061C606 /* icon.png */; };
 		69F0D0CC12B7A2990061C606 /* CMAppDelegateTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E01E0412B713A8000A843E /* CMAppDelegateTest.m */; };
+		69F0D0EE12B7A3C90061C606 /* CMBDDSuite-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 69E01C0112B6FFC2000A843E /* CMBDDSuite-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -337,6 +338,7 @@
 				69E01DDD12B70DAC000A843E /* MainWindow.xib in Resources */,
 				69E01DE412B70DD7000A843E /* CityMinesViewController.xib in Resources */,
 				69F0D08F12B799D00061C606 /* icon.png in Resources */,
+				69F0D0EE12B7A3C90061C606 /* CMBDDSuite-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
