@@ -32,7 +32,6 @@
 		69E01DFC12B71276000A843E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		69E01DFD12B71277000A843E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
 		69E01E0312B712C5000A843E /* main_tdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E01E0212B712C5000A843E /* main_tdd.m */; };
-		69E01E0512B713A8000A843E /* CMAppDelegateTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E01E0412B713A8000A843E /* CMAppDelegateTest.m */; };
 		69E01E0A12B71501000A843E /* CMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* CMAppDelegate.m */; };
 		69E01E5612B71761000A843E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		69E01E5712B7176A000A843E /* CityMinesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* CityMinesViewController.xib */; };
@@ -41,6 +40,7 @@
 		69F0D08E12B799D00061C606 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F0D08D12B799D00061C606 /* icon.png */; };
 		69F0D08F12B799D00061C606 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F0D08D12B799D00061C606 /* icon.png */; };
 		69F0D09012B799D00061C606 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F0D08D12B799D00061C606 /* icon.png */; };
+		69F0D0CC12B7A2990061C606 /* CMAppDelegateTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E01E0412B713A8000A843E /* CMAppDelegateTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -379,9 +379,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				69E01E0312B712C5000A843E /* main_tdd.m in Sources */,
-				69E01E0512B713A8000A843E /* CMAppDelegateTest.m in Sources */,
 				69E01E0A12B71501000A843E /* CMAppDelegate.m in Sources */,
 				69F0D01C12B790040061C606 /* CMViewController.m in Sources */,
+				69F0D0CC12B7A2990061C606 /* CMAppDelegateTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
