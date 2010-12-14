@@ -1,0 +1,13 @@
+#ifdef __OBJC__
+	#import <Foundation/Foundation.h>
+	#import <CoreGraphics/CoreGraphics.h>
+	#import <GHUnitIOS/GHUnitIOS.h>
+	#import <OCMock-iPhone/OCMock.h>
+	#import <UIKit/UIKit.h>
+
+	#ifdef DEBUG
+	#define CMLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+	#else
+	#define CMLog(fmt, ...)
+	#endif
+#endif

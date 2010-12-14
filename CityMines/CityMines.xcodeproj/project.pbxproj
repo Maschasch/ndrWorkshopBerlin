@@ -15,6 +15,29 @@
 		2899E5220DE3E06400AC0155 /* CityMinesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* CityMinesViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* CMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* CMViewController.m */; };
+		69E01C3A12B70392000A843E /* Cedar-iPhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E01C3912B70392000A843E /* Cedar-iPhone.framework */; };
+		69E01C3E12B70392000A843E /* OCHamcrest-iPhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E01C3D12B70392000A843E /* OCHamcrest-iPhone.framework */; };
+		69E01C4012B70392000A843E /* OCMock-iPhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E01C3F12B70392000A843E /* OCMock-iPhone.framework */; };
+		69E01C4912B7039E000A843E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		69E01C4A12B703A0000A843E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		69E01C4B12B703A1000A843E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		69E01C4E12B703F2000A843E /* main_bdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E01C4D12B703F2000A843E /* main_bdd.m */; };
+		69E01C5F12B70593000A843E /* CMAppDelegateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E01C5E12B70593000A843E /* CMAppDelegateSpec.m */; };
+		69E01C7312B70689000A843E /* CMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* CMAppDelegate.m */; };
+		69E01DDD12B70DAC000A843E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		69E01DE412B70DD7000A843E /* CityMinesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* CityMinesViewController.xib */; };
+		69E01DF912B7126E000A843E /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E01C3B12B70392000A843E /* GHUnitIOS.framework */; };
+		69E01DFA12B71272000A843E /* OCMock-iPhone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E01C3F12B70392000A843E /* OCMock-iPhone.framework */; };
+		69E01DFB12B71273000A843E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		69E01DFC12B71276000A843E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		69E01DFD12B71277000A843E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		69E01E0312B712C5000A843E /* main_tdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E01E0212B712C5000A843E /* main_tdd.m */; };
+		69E01E0512B713A8000A843E /* CMAppDelegateTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E01E0412B713A8000A843E /* CMAppDelegateTest.m */; };
+		69E01E0A12B71501000A843E /* CMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* CMAppDelegate.m */; };
+		69E01E5612B71761000A843E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		69E01E5712B7176A000A843E /* CityMinesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* CityMinesViewController.xib */; };
+		69F0D01C12B790040061C606 /* CMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* CMViewController.m */; };
+		69F0D02D12B7906B0061C606 /* CMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* CMViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +53,20 @@
 		28D7ACF70DDB3853001CB0EB /* CMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* CityMines_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityMines_Prefix.pch; sourceTree = "<group>"; };
+		69E01BFF12B6FFC2000A843E /* CMBDDSuite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMBDDSuite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69E01C0112B6FFC2000A843E /* CMBDDSuite-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CMBDDSuite-Info.plist"; path = "Resources/CMBDDSuite-Info.plist"; sourceTree = "<group>"; };
+		69E01C3912B70392000A843E /* Cedar-iPhone.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Cedar-iPhone.framework"; path = "Libs/Cedar-iPhone.framework"; sourceTree = "<group>"; };
+		69E01C3B12B70392000A843E /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = Libs/GHUnitIOS.framework; sourceTree = "<group>"; };
+		69E01C3D12B70392000A843E /* OCHamcrest-iPhone.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "OCHamcrest-iPhone.framework"; path = "Libs/OCHamcrest-iPhone.framework"; sourceTree = "<group>"; };
+		69E01C3F12B70392000A843E /* OCMock-iPhone.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "OCMock-iPhone.framework"; path = "Libs/OCMock-iPhone.framework"; sourceTree = "<group>"; };
+		69E01C4C12B703F2000A843E /* CMBDDSuite_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBDDSuite_Prefix.pch; sourceTree = "<group>"; };
+		69E01C4D12B703F2000A843E /* main_bdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main_bdd.m; sourceTree = "<group>"; };
+		69E01C5E12B70593000A843E /* CMAppDelegateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAppDelegateSpec.m; sourceTree = "<group>"; };
+		69E01DED12B710AD000A843E /* CMTDDSuite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CMTDDSuite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69E01DEF12B710AD000A843E /* CMTDDSuite-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "CMTDDSuite-Info.plist"; path = "Resources/CMTDDSuite-Info.plist"; sourceTree = "<group>"; };
+		69E01E0112B712C5000A843E /* CMTDDSuite_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMTDDSuite_Prefix.pch; sourceTree = "<group>"; };
+		69E01E0212B712C5000A843E /* main_tdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main_tdd.m; sourceTree = "<group>"; };
+		69E01E0412B713A8000A843E /* CMAppDelegateTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAppDelegateTest.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CityMines-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "CityMines-Info.plist"; path = "Resources/CityMines-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,6 +78,31 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E01BFD12B6FFC2000A843E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E01C4A12B703A0000A843E /* Foundation.framework in Frameworks */,
+				69E01C4912B7039E000A843E /* UIKit.framework in Frameworks */,
+				69E01C4B12B703A1000A843E /* CoreGraphics.framework in Frameworks */,
+				69E01C3A12B70392000A843E /* Cedar-iPhone.framework in Frameworks */,
+				69E01C3E12B70392000A843E /* OCHamcrest-iPhone.framework in Frameworks */,
+				69E01C4012B70392000A843E /* OCMock-iPhone.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E01DEB12B710AD000A843E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E01DF912B7126E000A843E /* GHUnitIOS.framework in Frameworks */,
+				69E01DFA12B71272000A843E /* OCMock-iPhone.framework in Frameworks */,
+				69E01DFB12B71273000A843E /* UIKit.framework in Frameworks */,
+				69E01DFC12B71276000A843E /* Foundation.framework in Frameworks */,
+				69E01DFD12B71277000A843E /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +124,8 @@
 			isa = PBXGroup;
 			children = (
 				1D6058910D05DD3D006BFB54 /* CityMines.app */,
+				69E01BFF12B6FFC2000A843E /* CMBDDSuite.app */,
+				69E01DED12B710AD000A843E /* CMTDDSuite.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,6 +133,8 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				69E01DE812B71057000A843E /* Tests */,
+				69E01C5812B704E2000A843E /* Specs */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -81,10 +147,14 @@
 		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
+				69E01E0112B712C5000A843E /* CMTDDSuite_Prefix.pch */,
+				69E01E0212B712C5000A843E /* main_tdd.m */,
+				69E01C4C12B703F2000A843E /* CMBDDSuite_Prefix.pch */,
+				69E01C4D12B703F2000A843E /* main_bdd.m */,
 				32CA4F630368D1EE00C91783 /* CityMines_Prefix.pch */,
 				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
-			name = "Other Sources";
+			path = "Other Sources";
 			sourceTree = "<group>";
 		};
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
@@ -93,6 +163,8 @@
 				69D88DCD12B67E3E0049C01C /* Plists */,
 				69D88DCC12B67E120049C01C /* Nibs */,
 				8D1107310486CEB800E47090 /* CityMines-Info.plist */,
+				69E01C0112B6FFC2000A843E /* CMBDDSuite-Info.plist */,
+				69E01DEF12B710AD000A843E /* CMTDDSuite-Info.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -103,6 +175,10 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				69E01C3912B70392000A843E /* Cedar-iPhone.framework */,
+				69E01C3B12B70392000A843E /* GHUnitIOS.framework */,
+				69E01C3D12B70392000A843E /* OCHamcrest-iPhone.framework */,
+				69E01C3F12B70392000A843E /* OCMock-iPhone.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -125,6 +201,22 @@
 			path = Resources/Plists;
 			sourceTree = "<group>";
 		};
+		69E01C5812B704E2000A843E /* Specs */ = {
+			isa = PBXGroup;
+			children = (
+				69E01C5E12B70593000A843E /* CMAppDelegateSpec.m */,
+			);
+			path = Specs;
+			sourceTree = "<group>";
+		};
+		69E01DE812B71057000A843E /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				69E01E0412B713A8000A843E /* CMAppDelegateTest.m */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +235,40 @@
 			name = CityMines;
 			productName = CityMines;
 			productReference = 1D6058910D05DD3D006BFB54 /* CityMines.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69E01BFE12B6FFC2000A843E /* CMBDDSuite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69E01C0412B6FFC3000A843E /* Build configuration list for PBXNativeTarget "CMBDDSuite" */;
+			buildPhases = (
+				69E01BFB12B6FFC2000A843E /* Resources */,
+				69E01BFC12B6FFC2000A843E /* Sources */,
+				69E01BFD12B6FFC2000A843E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CMBDDSuite;
+			productName = CMBDDSuite;
+			productReference = 69E01BFF12B6FFC2000A843E /* CMBDDSuite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69E01DEC12B710AD000A843E /* CMTDDSuite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69E01DF212B710AD000A843E /* Build configuration list for PBXNativeTarget "CMTDDSuite" */;
+			buildPhases = (
+				69E01DE912B710AD000A843E /* Resources */,
+				69E01DEA12B710AD000A843E /* Sources */,
+				69E01DEB12B710AD000A843E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CMTDDSuite;
+			productName = CMTDDSuite;
+			productReference = 69E01DED12B710AD000A843E /* CMTDDSuite.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -165,6 +291,8 @@
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* CityMines */,
+				69E01BFE12B6FFC2000A843E /* CMBDDSuite */,
+				69E01DEC12B710AD000A843E /* CMTDDSuite */,
 			);
 		};
 /* End PBXProject section */
@@ -176,6 +304,24 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* CityMinesViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E01BFB12B6FFC2000A843E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E01DDD12B70DAC000A843E /* MainWindow.xib in Resources */,
+				69E01DE412B70DD7000A843E /* CityMinesViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E01DE912B710AD000A843E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E01E5612B71761000A843E /* MainWindow.xib in Resources */,
+				69E01E5712B7176A000A843E /* CityMinesViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +338,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		69E01BFC12B6FFC2000A843E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E01C4E12B703F2000A843E /* main_bdd.m in Sources */,
+				69E01C5F12B70593000A843E /* CMAppDelegateSpec.m in Sources */,
+				69E01C7312B70689000A843E /* CMAppDelegate.m in Sources */,
+				69F0D02D12B7906B0061C606 /* CMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69E01DEA12B710AD000A843E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69E01E0312B712C5000A843E /* main_tdd.m in Sources */,
+				69E01E0512B713A8000A843E /* CMAppDelegateTest.m in Sources */,
+				69E01E0A12B71501000A843E /* CMAppDelegate.m in Sources */,
+				69F0D01C12B790040061C606 /* CMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
@@ -203,9 +371,10 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = CityMines_Prefix.pch;
+				GCC_PREFIX_HEADER = "Other Sources/CityMines_Prefix.pch";
 				INFOPLIST_FILE = "Resources/CityMines-Info.plist";
 				PRODUCT_NAME = CityMines;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -215,10 +384,133 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = CityMines_Prefix.pch;
+				GCC_PREFIX_HEADER = "Other Sources/CityMines_Prefix.pch";
 				INFOPLIST_FILE = "Resources/CityMines-Info.plist";
 				PRODUCT_NAME = CityMines;
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69E01C0212B6FFC3000A843E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libs\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Other Sources/CMBDDSuite_Prefix.pch";
+				INFOPLIST_FILE = "Resources/CMBDDSuite-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = CMBDDSuite;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		69E01C0312B6FFC3000A843E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libs\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Other Sources/CMBDDSuite_Prefix.pch";
+				INFOPLIST_FILE = "Resources/CMBDDSuite-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = CMBDDSuite;
+				SDKROOT = iphoneos;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		69E01DF012B710AD000A843E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libs\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Other Sources/CMTDDSuite_Prefix.pch";
+				INFOPLIST_FILE = "Resources/CMTDDSuite-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = CMTDDSuite;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		69E01DF112B710AD000A843E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Libs\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Other Sources/CMTDDSuite_Prefix.pch";
+				INFOPLIST_FILE = "Resources/CMTDDSuite-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = CMTDDSuite;
+				SDKROOT = iphoneos;
+				ZERO_LINK = NO;
 			};
 			name = Release;
 		};
@@ -227,11 +519,17 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/Libs\"";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+				);
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv6 armv7";
 			};
 			name = Debug;
 		};
@@ -240,12 +538,18 @@
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = "\"$(SRCROOT)/Libs\"";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lstdc++",
+				);
 				PREBINDING = NO;
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv6 armv7";
 			};
 			name = Release;
 		};
@@ -257,6 +561,24 @@
 			buildConfigurations = (
 				1D6058940D05DD3E006BFB54 /* Debug */,
 				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69E01C0412B6FFC3000A843E /* Build configuration list for PBXNativeTarget "CMBDDSuite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69E01C0212B6FFC3000A843E /* Debug */,
+				69E01C0312B6FFC3000A843E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69E01DF212B710AD000A843E /* Build configuration list for PBXNativeTarget "CMTDDSuite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69E01DF012B710AD000A843E /* Debug */,
+				69E01DF112B710AD000A843E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
