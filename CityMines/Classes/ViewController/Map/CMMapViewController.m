@@ -43,40 +43,27 @@
 	CLLocationCoordinate2D bombLocation;
 	CMBombAnnotation *bomb = nil;
 	
-	bombLocation.latitude = 50.121603;
-	bombLocation.longitude = 8.649582;
+	for (NSDictionary *mineDict in [[CMModel sharedModel] mines]) {
+		bombLocation.latitude = [[mineDict objectForKey:@"lat"] floatValue];
+		bombLocation.longitude = [[mineDict objectForKey:@"long"] floatValue];
+		
+		bomb = [[CMBombAnnotation alloc] init];
+		bomb.coordinate = bombLocation;
+		
+		[mapView addAnnotation:bomb];
+		[[[CMMineCollisionObserver sharedObserver] mines] addObject:bomb];
+		
+		[bomb release];
+		bomb = nil;
+	}
 	
-	bomb = [[CMBombAnnotation alloc] init];
-	bomb.coordinate = bombLocation;
-	
-	[mapView addAnnotation:bomb];
-	[[[CMMineCollisionObserver sharedObserver] mines] addObject:bomb];
-	bomb = nil;
-	
-	bombLocation.latitude = 50.12362;
-	bombLocation.longitude = 8.649582;
-	
-	bomb = [[CMBombAnnotation alloc] init];
-	bomb.coordinate = bombLocation;
-	
-	[mapView addAnnotation:bomb];
-	[[[CMMineCollisionObserver sharedObserver] mines] addObject:bomb];
-	bomb = nil;
-	
-	bombLocation.latitude = 50.12162;
-	bombLocation.longitude = 8.659582;
-	
-	bomb = [[CMBombAnnotation alloc] init];
-	bomb.coordinate = bombLocation;
-	
-	[mapView addAnnotation:bomb];
-	[[[CMMineCollisionObserver sharedObserver] mines] addObject:bomb];
-	bomb = nil;
 	
 	[mapView setDelegate:self];
 	
 	[[CMMineCollisionObserver sharedObserver] registerListener:self];
 	[[CMMineCollisionObserver sharedObserver] start];
+
+	
 }
 
 
@@ -159,7 +146,7 @@
 
 	UILabel *deadLabel = [[UILabel alloc] initWithFrame:CGRectMake(0.0, 0.0, 190.0, 160.0)];
 	deadLabel.numberOfLines = 0;
-	deadLabel.text = @" YOU ARE \n DEAD!";
+	deadLabel.text = NSLocalizedString(@"DEAD", @"DEAD");
 	deadLabel.backgroundColor = [UIColor colorWithRed:145.0/255.0 green:13.0/255.0 blue:14.0/255.0 alpha:0.6];
 	deadLabel.textColor = [UIColor whiteColor];
 	deadLabel.font = [UIFont fontWithName:@"Helvetica-Bold" size:35];

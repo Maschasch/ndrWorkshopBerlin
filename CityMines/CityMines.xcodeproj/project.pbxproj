@@ -41,6 +41,12 @@
 		69F0D08F12B799D00061C606 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F0D08D12B799D00061C606 /* icon.png */; };
 		69F0D09012B799D00061C606 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F0D08D12B799D00061C606 /* icon.png */; };
 		69F0D0CC12B7A2990061C606 /* CMAppDelegateTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E01E0412B713A8000A843E /* CMAppDelegateTest.m */; };
+		BD033EE012BA07C8009A4EDF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD033EDE12BA07C8009A4EDF /* Localizable.strings */; };
+		BD033EE112BA07C8009A4EDF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD033EDE12BA07C8009A4EDF /* Localizable.strings */; };
+		BD033EE212BA07C8009A4EDF /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD033EDE12BA07C8009A4EDF /* Localizable.strings */; };
+		BD033EFC12BA08BC009A4EDF /* Mines.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD033EFB12BA08BC009A4EDF /* Mines.plist */; };
+		BD033EFD12BA08BC009A4EDF /* Mines.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD033EFB12BA08BC009A4EDF /* Mines.plist */; };
+		BD033EFE12BA08BC009A4EDF /* Mines.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD033EFB12BA08BC009A4EDF /* Mines.plist */; };
 		BD28876712B8B767009B214F /* bomb@x2.png in Resources */ = {isa = PBXBuildFile; fileRef = BD28876612B8B767009B214F /* bomb@x2.png */; };
 		BD28876812B8B767009B214F /* bomb@x2.png in Resources */ = {isa = PBXBuildFile; fileRef = BD28876612B8B767009B214F /* bomb@x2.png */; };
 		BD28876912B8B767009B214F /* bomb@x2.png in Resources */ = {isa = PBXBuildFile; fileRef = BD28876612B8B767009B214F /* bomb@x2.png */; };
@@ -109,6 +115,9 @@
 		69E01E0412B713A8000A843E /* CMAppDelegateTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAppDelegateTest.m; sourceTree = "<group>"; };
 		69F0D08D12B799D00061C606 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CityMines-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "CityMines-Info.plist"; path = "Resources/CityMines-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		BD033EDF12BA07C8009A4EDF /* de */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BD033EE312BA07DE009A4EDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BD033EFB12BA08BC009A4EDF /* Mines.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Mines.plist; sourceTree = "<group>"; };
 		BD28876612B8B767009B214F /* bomb@x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bomb@x2.png"; sourceTree = "<group>"; };
 		BD28877012B8B9D8009B214F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		BD93206B12B81091001F5306 /* CMBombAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBombAnnotationView.h; sourceTree = "<group>"; };
@@ -229,8 +238,9 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BD033EF612BA087C009A4EDF /* Plists */,
+				BD033EC412BA04AC009A4EDF /* Strings */,
 				69F0D08B12B799D00061C606 /* Images */,
-				69D88DCD12B67E3E0049C01C /* Plists */,
 				69D88DCC12B67E120049C01C /* Nibs */,
 				8D1107310486CEB800E47090 /* CityMines-Info.plist */,
 				69E01C0112B6FFC2000A843E /* CMBDDSuite-Info.plist */,
@@ -263,14 +273,6 @@
 			);
 			name = Nibs;
 			path = Resources/Nibs;
-			sourceTree = "<group>";
-		};
-		69D88DCD12B67E3E0049C01C /* Plists */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Plists;
-			path = Resources/Plists;
 			sourceTree = "<group>";
 		};
 		69E01C5812B704E2000A843E /* Specs */ = {
@@ -310,6 +312,24 @@
 				69F0D08D12B799D00061C606 /* icon.png */,
 			);
 			path = Icons;
+			sourceTree = "<group>";
+		};
+		BD033EC412BA04AC009A4EDF /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				BD033EDE12BA07C8009A4EDF /* Localizable.strings */,
+			);
+			name = Strings;
+			path = Resources/Strings;
+			sourceTree = "<group>";
+		};
+		BD033EF612BA087C009A4EDF /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				BD033EFB12BA08BC009A4EDF /* Mines.plist */,
+			);
+			name = Plists;
+			path = Resources/Plists;
 			sourceTree = "<group>";
 		};
 		BD93205912B81012001F5306 /* View */ = {
@@ -431,6 +451,8 @@
 				Japanese,
 				French,
 				German,
+				de,
+				en,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
@@ -456,6 +478,8 @@
 				BD28876712B8B767009B214F /* bomb@x2.png in Resources */,
 				BD28877112B8B9D8009B214F /* Default.png in Resources */,
 				BDA80D0312B8E53A00997CCE /* explosion.png in Resources */,
+				BD033EE012BA07C8009A4EDF /* Localizable.strings in Resources */,
+				BD033EFE12BA08BC009A4EDF /* Mines.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +495,8 @@
 				BD28876912B8B767009B214F /* bomb@x2.png in Resources */,
 				BD28877312B8B9D8009B214F /* Default.png in Resources */,
 				BDA80D0412B8E53A00997CCE /* explosion.png in Resources */,
+				BD033EE112BA07C8009A4EDF /* Localizable.strings in Resources */,
+				BD033EFD12BA08BC009A4EDF /* Mines.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,6 +512,8 @@
 				BD28876812B8B767009B214F /* bomb@x2.png in Resources */,
 				BD28877212B8B9D8009B214F /* Default.png in Resources */,
 				BDA80D0512B8E53A00997CCE /* explosion.png in Resources */,
+				BD033EE212BA07C8009A4EDF /* Localizable.strings in Resources */,
+				BD033EFC12BA08BC009A4EDF /* Mines.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -543,6 +571,18 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BD033EDE12BA07C8009A4EDF /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD033EDF12BA07C8009A4EDF /* de */,
+				BD033EE312BA07DE009A4EDF /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {

@@ -6,6 +6,7 @@
 
 #import "CMAppDelegate.h"
 
+/*
 SPEC_BEGIN(CMAppDelegateSpec)
 
 describe(@"CMAppDelegate", ^{
@@ -30,3 +31,4 @@ describe(@"CMAppDelegate", ^{
 });
 
 SPEC_END
+ */

@@ -9,6 +9,8 @@
 #import "CMModel.h"
 
 @implementation CMModel
+@synthesize locationManager;
+@synthesize mines;
 
 @synthesize currentUserLocation;
 
@@ -29,6 +31,8 @@ static CMModel *sharedInstance = nil;
 	if (self = [super init]){
 		locationManager = [[CLLocationManager alloc] init];
 		locationManager.delegate = self;
+		
+		mines = [[NSArray arrayWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Mines" ofType:@"plist"]] retain];
 		
 	}
 	
@@ -62,6 +66,8 @@ static CMModel *sharedInstance = nil;
 
 - (void)dealloc {
     
+	[locationManager release];
+	[mines release];
 	[locationManager release];
     [super dealloc];
 }

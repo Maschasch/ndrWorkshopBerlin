@@ -13,10 +13,15 @@
 @interface CMAppDelegate : NSObject <UIApplicationDelegate> {
     UIWindow *window;
     CMRootViewController *viewController;
+	
+	UIImageView *defaultImageView;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet CMRootViewController *viewController;
 
-@end
+@property (nonatomic, retain) IBOutlet UIImageView *defaultImageView;
 
+-(IBAction)handleButton: (id)sender;
+
+@end

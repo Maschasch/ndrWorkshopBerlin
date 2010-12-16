@@ -1,0 +1,9 @@
+/* 
+   Localizable.strings
+   CityMines
+
+   Created by Marco Köppel on 16.12.10.
+   Copyright 2010 Neue Digitale / Razorfish GmbH. All rights reserved.
+ */
+
+"DEAD" = "YOU ARE \nDEAD";

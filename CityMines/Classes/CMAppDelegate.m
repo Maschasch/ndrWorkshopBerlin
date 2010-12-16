@@ -10,6 +10,7 @@
 #import "CMRootViewController.h"
 
 @implementation CMAppDelegate
+@synthesize defaultImageView;
 
 @synthesize window;
 @synthesize viewController;
@@ -20,25 +21,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
-	[application setStatusBarHidden:NO withAnimation:UIStatusBarAnimationSlide];
-	
     // Override point for customization after application launch.
 	self.viewController = [CMRootViewController viewController];
-	self.viewController.view.center = CGPointMake(self.viewController.view.center.x, self.viewController.view.center.y+20);
-    // Add the view controller's view to the window and display.
-    [self.window addSubview:viewController.view];
+	// Add the view controller's view to the window and display.
+    //[self.window addSubview:viewController.view];
+	[self.window insertSubview:viewController.view atIndex:0];
 	
-	UIImageView *defaultImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
-	[defaultImageView setImage:[UIImage imageNamed:@"Default.png"]];
-	[self.window addSubview:defaultImageView];
+//	UIImageView *defaultImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
+//	[defaultImageView setImage:[UIImage imageNamed:@"Default.png"]];
+//	[self.window addSubview:defaultImageView];
 	
-	[UIView animateWithDuration:0.8 delay:1.2 options:UIViewAnimationOptionCurveEaseInOut animations:^{
-		[defaultImageView setCenter:CGPointMake(defaultImageView.center.x, 480 + defaultImageView.frame.size.height)];
-	} completion:^(BOOL finished){
-		[defaultImageView removeFromSuperview];
-	}];
-	
-	[defaultImageView release];
+//	[defaultImageView release];
 	
 	
     [self.window makeKeyAndVisible];
@@ -98,7 +91,30 @@
 - (void)dealloc {
     [viewController release];
     [window release];
+	[defaultImageView release];
     [super dealloc];
+}
+
+#pragma mark -
+#pragma mark Handler
+
+-(IBAction)handleButton: (id)sender{
+	
+	UIButton *senderAsButton = (UIButton *)sender;
+	
+	[UIView animateWithDuration:0.8 delay:0.0 options:UIViewAnimationOptionCurveEaseInOut animations:^{
+		[senderAsButton setTransform:CGAffineTransformMakeRotation(M_PI*1)];
+		
+	} completion:^(BOOL finished){
+		[UIView animateWithDuration:0.45 delay:0.0 options:UIViewAnimationOptionCurveEaseOut animations:^{
+			[defaultImageView setCenter:CGPointMake(defaultImageView.center.x, -480)];
+		} completion:^(BOOL finished){
+			[defaultImageView removeFromSuperview];
+			[[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationSlide];
+		}];
+		[senderAsButton removeFromSuperview];
+	}];
+	
 }
 
 

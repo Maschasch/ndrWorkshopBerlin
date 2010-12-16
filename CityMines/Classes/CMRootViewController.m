@@ -55,7 +55,8 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-	[self.view addSubview:mapViewController.view];
+	self.view.center = CGPointMake(self.view.center.x, self.view.center.y+20);
+    [self.view addSubview:mapViewController.view];
 }
 
 

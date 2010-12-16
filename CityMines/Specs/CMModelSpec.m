@@ -7,7 +7,9 @@
 //
 
 
+#import <CoreLocation/CoreLocation.h>
 #import "CMModel.h"
+
 
 SPEC_BEGIN(CMModelSpec)
 
@@ -21,10 +23,27 @@ describe(@"CMModel", ^{
 		
 	});
 	
-    it(@"should gather the current User Location", ^{
-		[[CMModel sharedModel] captureCurrentUserLocation];
-		//assertThat([[CMModel sharedModel] currentUserLocation], is(notNilValue()));
+    it(@"should have at least 1 mine", ^{
+		NSArray *mines = [[CMModel sharedModel] mines];
+		assertThatInteger([mines count], isNot(equalToInt(0)));
+		
 	});
+	
+	it(@"should respond to Location Updates", ^{
+		BOOL respond = [[CMModel sharedModel] respondsToSelector:@selector(locationManager:didUpdateToLocation:fromLocation:)];
+		assertThatBool(respond, is(equalToBool(YES)));
+	});
+	
+	it(@"should store a User Location when location was updated", ^{
+		
+		CLLocation *aLocation = [[CLLocation alloc] initWithLatitude:50.32 longitude:8.03];
+		[[CMModel sharedModel] locationManager:[[CMModel sharedModel] locationManager] didUpdateToLocation:aLocation fromLocation:nil];
+		
+		CLLocation *userLocation = [[CMModel sharedModel] currentUserLocation];
+		assertThat(userLocation, is(notNilValue()));
+		
+	});
+	
 	
 });
 

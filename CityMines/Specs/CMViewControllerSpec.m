@@ -9,6 +9,7 @@
 
 #import "CMRootViewController.h"
 
+/*
 SPEC_BEGIN(CMRootViewControllerSpec)
 
 describe(@"CMViewController", ^{
@@ -23,11 +24,12 @@ describe(@"CMViewController", ^{
 		[viewController release];
 	});
 	
-    it(@"should have a map view when view was loaded", ^{
-		[viewController viewDidLoad];
-		assertThat(viewController.mapViewController, is(notNilValue()));
-	});
+//    it(@"should have a map view when view was loaded", ^{
+//		[viewController viewDidLoad];
+//		assertThat(viewController.mapViewController, is(notNilValue()));
+//	});
 	
 });
 
 SPEC_END
+*/

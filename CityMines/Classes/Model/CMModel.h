@@ -13,13 +13,18 @@
 
 	CLLocationManager *locationManager;
 	CLLocation *currentUserLocation;
+	
+	NSArray *mines;
 }
 
+@property (nonatomic, readonly) CLLocationManager *locationManager;
 @property (nonatomic, retain) CLLocation *currentUserLocation;
+@property (nonatomic, readonly) NSArray *mines;
 
 
 + (CMModel *)sharedModel;
 
 - (void)captureCurrentUserLocation;
+
 
 @end
