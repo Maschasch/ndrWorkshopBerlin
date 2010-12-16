@@ -10,10 +10,13 @@
 #import <MapKit/MapKit.h>
 
 #import "CMModel.h"
+#import "CMMineCollisionObserver.h"
+#import "CMMineCollisionListener.h"
 
-@interface CMMapViewController : UIViewController <MKMapViewDelegate> {
+@interface CMMapViewController : UIViewController <MKMapViewDelegate, CMMineCollisionListener> {
 
 	MKMapView *mapView;
+	UIView *deadLabelContainer;
 }
 
 @property (nonatomic, retain) IBOutlet MKMapView *mapView;

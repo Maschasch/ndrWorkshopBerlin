@@ -12,13 +12,16 @@
 @interface CMBombAnnotation : NSObject<MKAnnotation> {
 
 	CLLocationCoordinate2D coordinate;
+	BOOL detonated;
 }
 
 @property (nonatomic, readonly) CLLocationCoordinate2D coordinate;
+@property (nonatomic, assign) BOOL detonated;
 
 - (void)setCoordinate:(CLLocationCoordinate2D)newCoordinate;
 
 - (NSString *)subtitle;
 - (NSString *)title;
+
 
 @end

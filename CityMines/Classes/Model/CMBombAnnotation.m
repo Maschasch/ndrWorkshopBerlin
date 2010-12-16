@@ -10,6 +10,7 @@
 
 
 @implementation CMBombAnnotation
+@synthesize detonated;
 
 @synthesize coordinate;
 

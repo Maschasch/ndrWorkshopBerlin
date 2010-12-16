@@ -41,9 +41,21 @@
 		69F0D08F12B799D00061C606 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F0D08D12B799D00061C606 /* icon.png */; };
 		69F0D09012B799D00061C606 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 69F0D08D12B799D00061C606 /* icon.png */; };
 		69F0D0CC12B7A2990061C606 /* CMAppDelegateTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 69E01E0412B713A8000A843E /* CMAppDelegateTest.m */; };
+		BD28876712B8B767009B214F /* bomb@x2.png in Resources */ = {isa = PBXBuildFile; fileRef = BD28876612B8B767009B214F /* bomb@x2.png */; };
+		BD28876812B8B767009B214F /* bomb@x2.png in Resources */ = {isa = PBXBuildFile; fileRef = BD28876612B8B767009B214F /* bomb@x2.png */; };
+		BD28876912B8B767009B214F /* bomb@x2.png in Resources */ = {isa = PBXBuildFile; fileRef = BD28876612B8B767009B214F /* bomb@x2.png */; };
+		BD28877112B8B9D8009B214F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BD28877012B8B9D8009B214F /* Default.png */; };
+		BD28877212B8B9D8009B214F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BD28877012B8B9D8009B214F /* Default.png */; };
+		BD28877312B8B9D8009B214F /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BD28877012B8B9D8009B214F /* Default.png */; };
 		BD93206D12B81091001F5306 /* CMBombAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD93206C12B81091001F5306 /* CMBombAnnotationView.m */; };
 		BD93206E12B81091001F5306 /* CMBombAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD93206C12B81091001F5306 /* CMBombAnnotationView.m */; };
 		BD93206F12B81091001F5306 /* CMBombAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = BD93206C12B81091001F5306 /* CMBombAnnotationView.m */; };
+		BDA80C7A12B8D3C600997CCE /* CMMineCollisionObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA80C7912B8D3C600997CCE /* CMMineCollisionObserver.m */; };
+		BDA80C7B12B8D3C600997CCE /* CMMineCollisionObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA80C7912B8D3C600997CCE /* CMMineCollisionObserver.m */; };
+		BDA80C7C12B8D3C600997CCE /* CMMineCollisionObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = BDA80C7912B8D3C600997CCE /* CMMineCollisionObserver.m */; };
+		BDA80D0312B8E53A00997CCE /* explosion.png in Resources */ = {isa = PBXBuildFile; fileRef = BDA80D0212B8E53A00997CCE /* explosion.png */; };
+		BDA80D0412B8E53A00997CCE /* explosion.png in Resources */ = {isa = PBXBuildFile; fileRef = BDA80D0212B8E53A00997CCE /* explosion.png */; };
+		BDA80D0512B8E53A00997CCE /* explosion.png in Resources */ = {isa = PBXBuildFile; fileRef = BDA80D0212B8E53A00997CCE /* explosion.png */; };
 		BDCDD87D12B7D05A00520956 /* CMModelSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCDD87C12B7D05A00520956 /* CMModelSpec.m */; };
 		BDCDD87E12B7D05A00520956 /* CMModelSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCDD87C12B7D05A00520956 /* CMModelSpec.m */; };
 		BDCFB1CD12B80C60008EED2E /* bomb.png in Resources */ = {isa = PBXBuildFile; fileRef = BDCFB1CC12B80C60008EED2E /* bomb.png */; };
@@ -97,8 +109,14 @@
 		69E01E0412B713A8000A843E /* CMAppDelegateTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAppDelegateTest.m; sourceTree = "<group>"; };
 		69F0D08D12B799D00061C606 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* CityMines-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "CityMines-Info.plist"; path = "Resources/CityMines-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		BD28876612B8B767009B214F /* bomb@x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bomb@x2.png"; sourceTree = "<group>"; };
+		BD28877012B8B9D8009B214F /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		BD93206B12B81091001F5306 /* CMBombAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBombAnnotationView.h; sourceTree = "<group>"; };
 		BD93206C12B81091001F5306 /* CMBombAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMBombAnnotationView.m; sourceTree = "<group>"; };
+		BDA80C7812B8D3C600997CCE /* CMMineCollisionObserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMMineCollisionObserver.h; sourceTree = "<group>"; };
+		BDA80C7912B8D3C600997CCE /* CMMineCollisionObserver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMMineCollisionObserver.m; sourceTree = "<group>"; };
+		BDA80C7E12B8D53100997CCE /* CMMineCollisionListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMMineCollisionListener.h; sourceTree = "<group>"; };
+		BDA80D0212B8E53A00997CCE /* explosion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion.png; sourceTree = "<group>"; };
 		BDCDD87C12B7D05A00520956 /* CMModelSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMModelSpec.m; sourceTree = "<group>"; };
 		BDCFB1CC12B80C60008EED2E /* bomb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bomb.png; sourceTree = "<group>"; };
 		BDCFB1D312B80CD4008EED2E /* CMBombAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMBombAnnotation.h; sourceTree = "<group>"; };
@@ -159,6 +177,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				BDA80C7712B8D30800997CCE /* MineHandling */,
 				BD93205912B81012001F5306 /* View */,
 				BDFEC98812B7B4EE008F8DF8 /* ViewController */,
 				BDFEC91F12B7A9FF008F8DF8 /* Model */,
@@ -275,6 +294,9 @@
 		69F0D08B12B799D00061C606 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				BDA80D0212B8E53A00997CCE /* explosion.png */,
+				BD28877012B8B9D8009B214F /* Default.png */,
+				BD28876612B8B767009B214F /* bomb@x2.png */,
 				BDCFB1CC12B80C60008EED2E /* bomb.png */,
 				69F0D08C12B799D00061C606 /* Icons */,
 			);
@@ -299,6 +321,26 @@
 			name = View;
 			sourceTree = "<group>";
 		};
+		BDA80C7712B8D30800997CCE /* MineHandling */ = {
+			isa = PBXGroup;
+			children = (
+				BDA80C7812B8D3C600997CCE /* CMMineCollisionObserver.h */,
+				BDA80C7912B8D3C600997CCE /* CMMineCollisionObserver.m */,
+				BDA80C7E12B8D53100997CCE /* CMMineCollisionListener.h */,
+			);
+			path = MineHandling;
+			sourceTree = "<group>";
+		};
+		BDA80CC312B8DF0700997CCE /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				BDFEC98912B7B51E008F8DF8 /* CMMapViewController.h */,
+				BDFEC98A12B7B51E008F8DF8 /* CMMapViewController.m */,
+				BDFEC98B12B7B51E008F8DF8 /* CMMapViewController.xib */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
 		BDFEC91F12B7A9FF008F8DF8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -313,9 +355,7 @@
 		BDFEC98812B7B4EE008F8DF8 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				BDFEC98912B7B51E008F8DF8 /* CMMapViewController.h */,
-				BDFEC98A12B7B51E008F8DF8 /* CMMapViewController.m */,
-				BDFEC98B12B7B51E008F8DF8 /* CMMapViewController.xib */,
+				BDA80CC312B8DF0700997CCE /* Map */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -413,6 +453,9 @@
 				69F0D08E12B799D00061C606 /* icon.png in Resources */,
 				BDFEC98D12B7B51E008F8DF8 /* CMMapViewController.xib in Resources */,
 				BDCFB1CF12B80C60008EED2E /* bomb.png in Resources */,
+				BD28876712B8B767009B214F /* bomb@x2.png in Resources */,
+				BD28877112B8B9D8009B214F /* Default.png in Resources */,
+				BDA80D0312B8E53A00997CCE /* explosion.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +468,9 @@
 				69F0D08F12B799D00061C606 /* icon.png in Resources */,
 				BDFEC98F12B7B51E008F8DF8 /* CMMapViewController.xib in Resources */,
 				BDCFB1CE12B80C60008EED2E /* bomb.png in Resources */,
+				BD28876912B8B767009B214F /* bomb@x2.png in Resources */,
+				BD28877312B8B9D8009B214F /* Default.png in Resources */,
+				BDA80D0412B8E53A00997CCE /* explosion.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +483,9 @@
 				69F0D09012B799D00061C606 /* icon.png in Resources */,
 				BDFEC99112B7B51E008F8DF8 /* CMMapViewController.xib in Resources */,
 				BDCFB1CD12B80C60008EED2E /* bomb.png in Resources */,
+				BD28876812B8B767009B214F /* bomb@x2.png in Resources */,
+				BD28877212B8B9D8009B214F /* Default.png in Resources */,
+				BDA80D0512B8E53A00997CCE /* explosion.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +503,7 @@
 				BDFEC98C12B7B51E008F8DF8 /* CMMapViewController.m in Sources */,
 				BDCFB1D712B80CD4008EED2E /* CMBombAnnotation.m in Sources */,
 				BD93206D12B81091001F5306 /* CMBombAnnotationView.m in Sources */,
+				BDA80C7A12B8D3C600997CCE /* CMMineCollisionObserver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,6 +521,7 @@
 				BDCDD87E12B7D05A00520956 /* CMModelSpec.m in Sources */,
 				BDCFB1D512B80CD4008EED2E /* CMBombAnnotation.m in Sources */,
 				BD93206F12B81091001F5306 /* CMBombAnnotationView.m in Sources */,
+				BDA80C7C12B8D3C600997CCE /* CMMineCollisionObserver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +538,7 @@
 				BDCDD87D12B7D05A00520956 /* CMModelSpec.m in Sources */,
 				BDCFB1D612B80CD4008EED2E /* CMBombAnnotation.m in Sources */,
 				BD93206E12B81091001F5306 /* CMBombAnnotationView.m in Sources */,
+				BDA80C7B12B8D3C600997CCE /* CMMineCollisionObserver.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -45,7 +45,7 @@
 					<object class="IBMKMapView" id="907690491">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">274</int>
-						<string key="NSFrameSize">{320, 460}</string>
+						<string key="NSFrame">{{0, -20}, {320, 480}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<bool key="IBUIMultipleTouchEnabled">YES</bool>
@@ -133,7 +133,7 @@
 					<bool key="EncodedWithXMLCoder">YES</bool>
 					<string>CMMapViewController</string>
 					<string>UIResponder</string>
-					<string>{{960, 296}, {320, 460}}</string>
+					<string>{{345, 296}, {320, 460}}</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				</object>

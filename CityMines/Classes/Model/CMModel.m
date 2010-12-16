@@ -92,7 +92,7 @@ static CMModel *sharedInstance = nil;
 
 - (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation{
 	self.currentUserLocation = newLocation;
-	[locationManager stopUpdatingLocation];
+	//[locationManager stopUpdatingLocation];
 }
 
 - (void)locationManager:(CLLocationManager *)manager didFailWithError:(NSError *)error{

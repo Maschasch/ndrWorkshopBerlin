@@ -20,11 +20,27 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
     
+	[application setStatusBarHidden:NO withAnimation:UIStatusBarAnimationSlide];
+	
     // Override point for customization after application launch.
 	self.viewController = [CMRootViewController viewController];
 	self.viewController.view.center = CGPointMake(self.viewController.view.center.x, self.viewController.view.center.y+20);
     // Add the view controller's view to the window and display.
     [self.window addSubview:viewController.view];
+	
+	UIImageView *defaultImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
+	[defaultImageView setImage:[UIImage imageNamed:@"Default.png"]];
+	[self.window addSubview:defaultImageView];
+	
+	[UIView animateWithDuration:0.8 delay:1.2 options:UIViewAnimationOptionCurveEaseInOut animations:^{
+		[defaultImageView setCenter:CGPointMake(defaultImageView.center.x, 480 + defaultImageView.frame.size.height)];
+	} completion:^(BOOL finished){
+		[defaultImageView removeFromSuperview];
+	}];
+	
+	[defaultImageView release];
+	
+	
     [self.window makeKeyAndVisible];
 
     return YES;
